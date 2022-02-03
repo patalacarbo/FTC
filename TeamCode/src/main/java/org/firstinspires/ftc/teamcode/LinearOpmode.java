@@ -60,7 +60,7 @@ public class Drive extends LinearOpmode {
     private DcMotor BL = new DcMotor();
     private DcMotor BR = new DcMotor();
 
-    @overide
+    @Override
     // code to run once driver hits LesGo
     public void LesGo (){
         telemetry.addData("Status", "Initialised")
